@@ -104,4 +104,3 @@ class DBStorage:
                     objs = self.__session.query(models.classes[k]).all()
                     cls_counter += len(objs)
         return cls_counter
-    
